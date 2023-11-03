@@ -1,21 +1,134 @@
-*{
+* {
     background-color: #0e0e0e;
 }
 
-.nav{
+.nav {
     width: 18px;
     height: auto;
     right: 10px;
 }
 
-#nav_swoosh{
+#nav_swoosh {
     width: 45px;
-    height: auto;
     position: absolute;
-    left: 10px;
+    left: 20px;
+    top: -13px;
 }
 
-#nav_bar{
+#nav_bar {
     text-align: center;
     position: relative;
+    height: auto;
+    margin: 20px 0px;
+}
+
+#nav_cart {
+    position: absolute;
+    right: 20px;
+}
+
+#nav_account {
+    position: absolute;
+    right: 48px;
+}
+
+.nav_links {
+    color: white;
+    font-family: Roboto;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 500;
+    display: inline-block;
+    line-height: normal;
+    font-size: 16px;
+    margin: 0px 25px;
+}
+
+
+#main_div {
+    margin-top: 40px;
+    text-align: center;
+    position: relative;
+}
+
+#above_head {
+    position: absolute;
+    font-size: 230px;
+    color: #00000000;
+    font-family: Ubuntu;
+    background-color: #00000000;
+    left: 300px;
+    -webkit-text-stroke-color: white;
+    -webkit-text-stroke-width: 1px;
+    font-weight: 400;
+    z-index: 3;
+
+}
+
+#main_shoe {
+    width: 700px;
+    transform: rotate(-22.5deg);
+    object-fit: cover;
+    background-color: #00000000;
+    position: absolute;
+    z-index: 2;
+    left: 300px;
+}
+
+
+#below_head {
+    position: absolute;
+    left: 300px;
+    color: white;
+    font-family:Ubuntu;
+    font-weight: 400;
+    font-size: 230px;
+    background-color: #00000000;
+}
+
+#back{
+    position: absolute;
+    left: 20px;
+    transform: rotate(180deg);
+    width: 30px;
+    top: 275px;
+}
+
+#next{
+    position: absolute;
+    right: 20px;
+    width: 30px;
+    top: 275px;
+}
+
+.product_tags{
+    font-family: Ubuntu;
+    font-style: italic;
+    font-weight: 500;
+    color: white;
+    font-size: 18px;
+    margin-top: 580px;
+    margin-left: 60px;
+}
+
+#price{
+    font-family: Ubuntu;
+    font-style: italic;
+    font-weight: 500;
+    color: white;
+    font-size: 20px;
+    margin-left: 60px;
+    margin-top: -8px;
+}
+
+#add_cart{
+    background-color: white;
+    color: black;
+    font-family: Ubuntu;
+    font-weight: 500;
+    padding: 7px;
+    border-radius: 10px;
+    font-size: 13px;
+    margin-left: 55px;
+    margin-top: -10px;
 }
