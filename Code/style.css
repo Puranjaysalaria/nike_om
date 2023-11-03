@@ -1,0 +1,21 @@
+*{
+    background-color: #0e0e0e;
+}
+
+.nav{
+    width: 18px;
+    height: auto;
+    right: 10px;
+}
+
+#nav_swoosh{
+    width: 45px;
+    height: auto;
+    position: absolute;
+    left: 10px;
+}
+
+#nav_bar{
+    text-align: center;
+    position: relative;
+}
