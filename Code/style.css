@@ -1,27 +1,27 @@
 /* background colour of the webpage */
 
-*{
+* {
     background-color: #0a0a0a;
 }
 
 /* navigation bar properties */
 
-nav{
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0px 5px;
+    margin: -12px 3px;
 }
 
 /* navigation button properties */
 
-.nav_button{
+.nav_button {
     padding: 10px;
 }
 
 /* navigation links properties */
 
-.nav_links{
+.nav_links {
     margin: 2px 20px;
     text-decoration: none;
     color: white;
@@ -32,36 +32,36 @@ nav{
 
 /* display sneakers section properties */
 
-#main_section{
+#main_section {
     display: flex;
     justify-content: space-between;
     position: relative;
     align-items: center;
-    margin: 300px 10px;
+    margin: 300px 2px;
 }
 
 /* back button properties */
 
-#back_button{
+#back_button {
     transform: rotate(180deg);
 }
 
 /* shoes image properties */
 
-#air_max{
+#air_max {
     max-width: 700px;
     position: absolute;
     max-height: auto;
     background-color: #00000000;
-    z-index: 2;  
+    z-index: 2;
     left: 50%;
     top: 50%;
-    transform: translate(-50%, -50%) rotate(-22.5deg); 
+    transform: translate(-50%, -50%) rotate(-22.5deg);
 }
 
 /* background solid heading properties */
 
-#back_heading{
+#back_heading {
     font-family: Ubuntu;
     position: absolute;
     font-size: 185px;
@@ -75,7 +75,7 @@ nav{
 
 /* front outline heading properties */
 
-#front_heading{
+#front_heading {
     font-family: Ubuntu;
     position: absolute;
     font-size: 185px;
@@ -87,4 +87,15 @@ nav{
     background-color: #00000000;
     left: 50%;
     transform: translate(-50%);
+}
+
+#shadow_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -80px;
+}
+
+#shadow{
+    width: 550px;
 }
