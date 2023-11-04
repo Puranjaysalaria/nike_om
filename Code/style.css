@@ -1,134 +1,90 @@
-* {
-    background-color: #0e0e0e;
+/* background colour of the webpage */
+
+*{
+    background-color: #0a0a0a;
 }
 
-.nav {
-    width: 18px;
-    height: auto;
-    right: 10px;
+/* navigation bar properties */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 5px;
 }
 
-#nav_swoosh {
-    width: 45px;
-    position: absolute;
-    left: 20px;
-    top: -13px;
+/* navigation button properties */
+
+.nav_button{
+    padding: 10px;
 }
 
-#nav_bar {
-    text-align: center;
-    position: relative;
-    height: auto;
-    margin: 20px 0px;
-}
+/* navigation links properties */
 
-#nav_cart {
-    position: absolute;
-    right: 20px;
-}
-
-#nav_account {
-    position: absolute;
-    right: 48px;
-}
-
-.nav_links {
+.nav_links{
+    margin: 2px 20px;
+    text-decoration: none;
     color: white;
     font-family: Roboto;
-    text-decoration: none;
-    font-style: normal;
     font-weight: 500;
-    display: inline-block;
-    line-height: normal;
-    font-size: 16px;
-    margin: 0px 25px;
+    font-size: 17px;
 }
 
+/* display sneakers section properties */
 
-#main_div {
-    margin-top: 40px;
-    text-align: center;
+#main_section{
+    display: flex;
+    justify-content: space-between;
     position: relative;
+    align-items: center;
+    margin: 300px 10px;
 }
 
-#above_head {
-    position: absolute;
-    font-size: 230px;
-    color: #00000000;
-    font-family: Ubuntu;
-    background-color: #00000000;
-    left: 300px;
-    -webkit-text-stroke-color: white;
-    -webkit-text-stroke-width: 1px;
-    font-weight: 400;
-    z-index: 3;
+/* back button properties */
 
-}
-
-#main_shoe {
-    width: 700px;
-    transform: rotate(-22.5deg);
-    object-fit: cover;
-    background-color: #00000000;
-    position: absolute;
-    z-index: 2;
-    left: 300px;
-}
-
-
-#below_head {
-    position: absolute;
-    left: 300px;
-    color: white;
-    font-family:Ubuntu;
-    font-weight: 400;
-    font-size: 230px;
-    background-color: #00000000;
-}
-
-#back{
-    position: absolute;
-    left: 20px;
+#back_button{
     transform: rotate(180deg);
-    width: 30px;
-    top: 275px;
 }
 
-#next{
+/* shoes image properties */
+
+#air_max{
+    max-width: 700px;
     position: absolute;
-    right: 20px;
-    width: 30px;
-    top: 275px;
+    max-height: auto;
+    background-color: #00000000;
+    z-index: 2;  
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%) rotate(-22.5deg); 
 }
 
-.product_tags{
+/* background solid heading properties */
+
+#back_heading{
     font-family: Ubuntu;
-    font-style: italic;
+    position: absolute;
+    font-size: 185px;
     font-weight: 500;
     color: white;
-    font-size: 18px;
-    margin-top: 580px;
-    margin-left: 60px;
+    background-color: #00000000;
+    z-index: 1;
+    left: 50%;
+    transform: translate(-50%);
 }
 
-#price{
-    font-family: Ubuntu;
-    font-style: italic;
-    font-weight: 500;
-    color: white;
-    font-size: 20px;
-    margin-left: 60px;
-    margin-top: -8px;
-}
+/* front outline heading properties */
 
-#add_cart{
-    background-color: white;
-    color: black;
+#front_heading{
     font-family: Ubuntu;
+    position: absolute;
+    font-size: 185px;
     font-weight: 500;
-    padding: 7px;
-    border-radius: 10px;
-    font-size: 13px;
-    margin-left: 55px;
-    margin-top: -10px;
+    color: #00000000;
+    -webkit-text-stroke-color: white;
+    -webkit-text-stroke-width: 1.5px;
+    z-index: 3;
+    background-color: #00000000;
+    left: 50%;
+    transform: translate(-50%);
 }
