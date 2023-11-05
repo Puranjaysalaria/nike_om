@@ -347,3 +347,90 @@ nav {
     height: 225px;
     background-size: cover;
 }
+
+#span_para{
+    max-width: 350px;
+    height: auto;
+    margin-left: 150px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+    background-color: #3b3b3ba0;
+    border-radius: 15px;
+}
+
+#just_head{
+    font-family: Roboto;
+    color: white;
+    font-weight: 1500;
+    font-size: 35px;
+    opacity: 0.7;
+    background-color: #00000000;
+}
+
+#just_para{
+    font-family: Roboto;
+    font-size: 15px;
+    color: white;
+    background-color: #00000000;
+    font-weight: 400;
+    opacity: 0.5;
+}
+
+#jordan{
+    transform: rotate(-30deg);
+    width: 190px;
+    margin-left: -40px;
+    background-color: #00000000;
+}
+
+#span_para_two{
+    display: flex;
+    justify-content: flex-end;
+}
+
+#jordan_two{
+    transform: rotate(30deg) scaleX(-1);
+    width: 190px;
+    height: max-content;
+    margin-right: -35px;
+    background-color: #00000000;
+}
+
+#jordan_para{
+    font-family: Roboto;
+    font-size: 15px;
+    color: white;
+    font-weight: 400;
+    opacity: 0.5;
+    text-align: right;
+    background-color: #00000000;
+}
+
+#jordan_head{
+    font-family: Roboto;
+    color: white;
+    font-weight: 1500;
+    font-size: 35px;
+    background-color: #00000000;
+    opacity: 0.7;
+    text-align: right;
+}
+
+#footer_swoosh{
+    width: 30px;
+    height: fit-content;
+    background-color: #00000000;
+    filter: invert();
+}
+
+.footer_text{
+    font-family: Roboto;
+    font-weight: 900;
+    font-size: 13px;
+    color: black;
+    background-color: #00000000;
+}
+
+
