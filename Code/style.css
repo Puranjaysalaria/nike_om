@@ -10,7 +10,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: -12px 3px;
+    margin: 0px 3px;
 }
 
 /* navigation button properties */
@@ -238,7 +238,7 @@ nav {
 }
 
 #second_sub_span_poster{
-    background-image: url(res/nike\ poster.jpeg);
+    background-image: url(res/Nike_Posters/nike_poster.jpeg);
     border-radius: 15px;
     background-size: cover;
     width: 230px;
@@ -304,4 +304,46 @@ nav {
     font-size: 13px;
     font-weight: 500;
     opacity: 0.4;
+}
+
+#fourth_span, #fifth_span{
+    display: flex;
+    flex-direction: column;
+    width: 225px;
+    height: 450px;
+    margin-left: 5px;
+}
+
+#sub_fourth_span{
+    background-image: url(res/Nike_Posters/grid_poster/4.jpg);
+    border-radius: 15px;
+    width: 225px;
+    height: 225px;
+    background-size: cover;
+    margin-bottom: 5px;
+}
+
+#sub_fourth_span_two{
+    background-image: url(res/Nike_Posters/grid_poster/2.jpg);
+    border-radius: 15px;
+    width: 225px;
+    height: 225px;
+    background-size: cover;
+}
+
+#fifth_span_sub{
+    background-image: url(res/Nike_Posters/grid_poster/3.jpg);
+    border-radius: 15px;
+    width: 225px;
+    height: 225px;
+    background-size: cover;
+    margin-bottom: 5px;
+}
+
+#fifth_span_sub_two{
+    background-image: url(res/Nike_Posters/grid_poster/1.jpg);
+    border-radius: 15px;
+    width: 225px;
+    height: 225px;
+    background-size: cover;
 }
